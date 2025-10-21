@@ -30,3 +30,41 @@ Users can search tracks, analyze their audio features, and view interactive data
 
 ## 📁 Project Structure
 
+inmyfeels-app/
+├── public/
+│ └── vite.svg
+├── server/
+│ ├── server.js
+│ └── package.json
+├── src/
+│ ├── App.jsx
+│ ├── components/
+│ │ ├── AuthUtils.jsx
+│ │ ├── Card.jsx
+│ │ ├── GenreForm.jsx
+│ │ ├── GraphComponent.jsx
+│ │ ├── PlotComponent.jsx
+│ │ ├── Slider.jsx
+│ │ ├── Thumbnail.jsx
+│ │ └── Callback.jsx
+│ ├── context.jsx
+│ ├── pages/
+│ │ ├── HomePage.jsx
+│ │ ├── SearchPage.jsx
+│ │ ├── ResultPage.jsx
+│ │ ├── AnalysisPage.jsx
+│ │ └── NavBar.jsx
+│ ├── styles/
+│ │ ├── global.css
+│ │ ├── homePage.css
+│ │ ├── searchPage.css
+│ │ ├── resultPage.css
+│ │ ├── analysisPage.css
+│ │ └── boxPlot.css
+│ ├── main.jsx
+│ └── index.css
+├── .gitignore
+├── vite.config.js
+├── package.json
+└── README.md
+
