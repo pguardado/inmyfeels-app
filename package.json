@@ -1,0 +1,54 @@
+{
+  "name": "inmyfeels-app",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview --host 127.0.0.1 --port 4173",
+    "format": "prettier -w ."
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "bootstrap": "^5.3.3",
+    "bottleneck": "^2.19.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "lodash": "^4.17.21",
+    "plotly.js": "^2.33.0",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.4",
+    "react-dom": "^18.3.1",
+    "react-plotly.js": "^2.6.0",
+    "react-router-dom": "^6.24.0",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "rollup": "^4.52.5",
+    "vite": "^5.4.21"
+  },
+  "description": "Spotify audio features explorer with Plotly visualizations.",
+  "license": "MIT",
+  "author": "Pedro Guardado",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<your-username>/inMyFeels-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/<your-username>/inMyFeels-app/issues"
+  },
+  "homepage": "https://github.com/<your-username>/inMyFeels-app#readme",
+  "engines": {
+    "node": ">=20"
+  }
+}
